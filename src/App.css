@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.App{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: honeydew;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subApp{
+    background-color: rgb(127, 209, 158);
+    height: 70vh;
+    width: 40vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 5px 3px 4px rgb(107, 105, 105);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form{
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addto{
+    outline-width: 0;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.clicktodo{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    outline-width: 0;
+    background-color: green;
+    color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todoList{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.todoList::-webkit-scrollbar{
+    display: none;
+}
+.selectors{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 20vw;
+    justify-content: space-between;
+}
+.selectors button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline-width: 0;
+    border: 2px solid white;
+    color: white;
+    transition: transform 100ms ease-out;
+}
+.selectors button:hover{
+    background: white;
+    color: green;
+    transform: scale(1.1);
+    cursor: pointer;
 }

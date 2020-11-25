@@ -1,0 +1,150 @@
+[debug] [2020-11-19T17:08:47.483Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T17:08:47.487Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-11-19T17:08:47.488Z] CLI Version:   8.16.2
+[debug] [2020-11-19T17:08:47.488Z] Platform:      win32
+[debug] [2020-11-19T17:08:47.488Z] Node Version:  v14.15.0
+[debug] [2020-11-19T17:08:47.490Z] Time:          Thu Nov 19 2020 18:08:47 GMT+0100 (West Africa Standard Time)
+[debug] [2020-11-19T17:08:47.491Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T17:08:47.491Z] 
+[debug] [2020-11-19T17:08:47.511Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-19T17:08:47.512Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2020-11-19T17:08:47.588Z] [hub] writing locator at C:\Users\HP\AppData\Local\Temp\hub-todo-app-12413.json
+[debug] [2020-11-19T17:08:47.647Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/todo-app-12413/webApps/-/config  
+ 
+[debug] [2020-11-19T17:08:48.961Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 19 Nov 2020 17:08:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] 
+┌──────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your apps. │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Other reserved ports: 4400
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2020-11-19T17:12:54.611Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T17:12:54.616Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:channel:deploy todo-app-12413
+[debug] [2020-11-19T17:12:54.616Z] CLI Version:   8.16.2
+[debug] [2020-11-19T17:12:54.617Z] Platform:      win32
+[debug] [2020-11-19T17:12:54.617Z] Node Version:  v14.15.0
+[debug] [2020-11-19T17:12:54.619Z] Time:          Thu Nov 19 2020 18:12:54 GMT+0100 (West Africa Standard Time)
+[debug] [2020-11-19T17:12:54.619Z] ----------------------------------------------------------------------
+[debug] [2020-11-19T17:12:54.619Z] 
+[debug] [2020-11-19T17:12:54.636Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-19T17:12:54.638Z] > authorizing via signed-in user
+[debug] [2020-11-19T17:12:54.639Z] [iam] checking project todo-app-12413 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-11-19T17:12:54.645Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/todo-app-12413:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-11-19T17:12:56.380Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 19 Nov 2020 17:12:56 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1099","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:12:56.384Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/todo-app-12413  
+ 
+[debug] [2020-11-19T17:12:56.940Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 19 Nov 2020 17:12:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:12:56.946Z] > refreshing access token with scopes: []
+[debug] [2020-11-19T17:12:56.946Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-11-19T17:12:57.534Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 19 Nov 2020 17:12:58 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:12:57.720Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels/todo-app-12413 [none]
+[debug] [2020-11-19T17:12:59.494Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels/todo-app-12413 404
+[debug] [2020-11-19T17:12:59.495Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels/todo-app-12413 {"error":{"code":404,"message":"Requested entity was not found.","status":"NOT_FOUND"}}
+[debug] [2020-11-19T17:12:59.496Z] [hosting] found existing channel for site todo-app-12413 null
+[debug] [2020-11-19T17:12:59.496Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels?channelId=todo-app-12413 [none]
+[debug] [2020-11-19T17:12:59.497Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels?channelId=todo-app-12413 {"ttl":"604800s"}
+[debug] [2020-11-19T17:13:01.260Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels?channelId=todo-app-12413 200
+[debug] [2020-11-19T17:13:01.261Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels?channelId=todo-app-12413 {"name":"projects/635012707242/sites/todo-app-12413/channels/todo-app-12413","url":"https://todo-app-12413--todo-app-12413-roq1ppsu.web.app","createTime":"2020-11-19T17:13:01.602915320Z","updateTime":"2020-11-19T17:13:01.602915320Z","retainedReleaseCount":10,"expireTime":"2020-11-26T17:13:01.602915320Z"}
+[debug] [2020-11-19T17:13:01.261Z] [hosting] created new channnel for site todo-app-12413 {"name":"projects/635012707242/sites/todo-app-12413/channels/todo-app-12413","url":"https://todo-app-12413--todo-app-12413-roq1ppsu.web.app","createTime":"2020-11-19T17:13:01.602915320Z","updateTime":"2020-11-19T17:13:01.602915320Z","retainedReleaseCount":10,"expireTime":"2020-11-26T17:13:01.602915320Z"}
+[debug] [2020-11-19T17:13:01.262Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-11-19T17:13:01.262Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-11-19T17:13:01.846Z] <<< HTTP RESPONSE 200 {"date":"Thu, 19 Nov 2020 17:13:02 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:01.952Z] >>> HTTP REQUEST GET https://identitytoolkit.googleapis.com/admin/v2/projects/todo-app-12413/config  
+ 
+[debug] [2020-11-19T17:13:03.521Z] <<< HTTP RESPONSE 404 {"date":"Thu, 19 Nov 2020 17:13:03 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","server":"ESF","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:03.522Z] <<< HTTP RESPONSE BODY {"error":{"code":404,"message":"CONFIGURATION_NOT_FOUND","status":"NOT_FOUND"}}
+[warn] !  hosting:channel: Unable to add channel domain to Firebase Auth. Visit the Firebase Console at https://console.firebase.google.com/project/todo-app-12413/authentication/providers
+
+ 
+[debug] [2020-11-19T17:13:03.543Z] [hosting] unable to add auth domain HTTP Error: 404, CONFIGURATION_NOT_FOUND {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"CONFIGURATION_NOT_FOUND","status":"NOT_FOUND"}},"response":{"statusCode":404,"body":{"error":{"code":404,"message":"CONFIGURATION_NOT_FOUND","status":"NOT_FOUND"}},"headers":{"date":"Thu, 19 Nov 2020 17:13:03 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","server":"ESF","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"},"request":{"uri":{"protocol":"https:","slashes":true,"auth":null,"host":"identitytoolkit.googleapis.com","port":443,"hostname":"identitytoolkit.googleapis.com","hash":null,"search":null,"query":null,"pathname":"/admin/v2/projects/todo-app-12413/config","path":"/admin/v2/projects/todo-app-12413/config","href":"https://identitytoolkit.googleapis.com/admin/v2/projects/todo-app-12413/config"},"method":"GET"}}},"exit":1,"message":"HTTP Error: 404, CONFIGURATION_NOT_FOUND","status":404}
+[debug] [2020-11-19T17:13:03.559Z] > refreshing access token with scopes: []
+[debug] [2020-11-19T17:13:03.560Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-11-19T17:13:04.125Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 19 Nov 2020 17:13:04 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:04.211Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels {"pageToken":"","pageSize":10}
+[debug] [2020-11-19T17:13:05.910Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels 200
+[debug] [2020-11-19T17:13:05.911Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/todo-app-12413/sites/todo-app-12413/channels {"channels":[{"name":"projects/635012707242/sites/todo-app-12413/channels/todo-app-12413","url":"https://todo-app-12413--todo-app-12413-roq1ppsu.web.app","createTime":"2020-11-19T17:13:01.602915320Z","updateTime":"2020-11-19T17:13:01.602915320Z","retainedReleaseCount":10,"expireTime":"2020-11-26T17:13:01.602915320Z"},{"name":"projects/635012707242/sites/todo-app-12413/channels/live","url":"https://todo-app-12413.web.app","release":{"name":"projects/635012707242/sites/todo-app-12413/releases/1605804397884222","version":{"name":"projects/635012707242/sites/todo-app-12413/versions/920e098cca19b366","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-11-19T16:46:28.155222Z","createUser":{"email":"ebirenidavid@gmail.com"},"finalizeTime":"2020-11-19T16:46:36.953037Z","finalizeUser":{"email":"ebirenidavid@gmail.com"},"fileCount":"20","versionBytes":"279198"},"type":"DEPLOY","releaseTime":"2020-11-19T16:46:37.884222837Z","releaseUser":{"email":"ebirenidavid@gmail.com"}},"createTime":"2020-11-19T16:01:06.037180353Z","updateTime":"2020-11-19T16:46:37.884222837Z","retainedReleaseCount":2147483647}]}
+[debug] [2020-11-19T17:13:05.911Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-11-19T17:13:05.912Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-11-19T17:13:06.530Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 19 Nov 2020 17:13:07 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:06.754Z] >>> HTTP REQUEST GET https://identitytoolkit.googleapis.com/admin/v2/projects/todo-app-12413/config  
+ 
+[debug] [2020-11-19T17:13:07.420Z] <<< HTTP RESPONSE 404 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 19 Nov 2020 17:13:07 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","server":"ESF","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:07.420Z] <<< HTTP RESPONSE BODY {"error":{"code":404,"message":"CONFIGURATION_NOT_FOUND","status":"NOT_FOUND"}}
+[warn] !  hosting:channel: Unable to sync Firebase Auth state. 
+[debug] [2020-11-19T17:13:07.421Z] [hosting] unable to sync auth domain HTTP Error: 404, CONFIGURATION_NOT_FOUND {"name":"FirebaseError","children":[],"context":{"body":{"error":{"code":404,"message":"CONFIGURATION_NOT_FOUND","status":"NOT_FOUND"}},"response":{"statusCode":404,"body":{"error":{"code":404,"message":"CONFIGURATION_NOT_FOUND","status":"NOT_FOUND"}},"headers":{"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 19 Nov 2020 17:13:07 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","server":"ESF","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"},"request":{"uri":{"protocol":"https:","slashes":true,"auth":null,"host":"identitytoolkit.googleapis.com","port":443,"hostname":"identitytoolkit.googleapis.com","hash":null,"search":null,"query":null,"pathname":"/admin/v2/projects/todo-app-12413/config","path":"/admin/v2/projects/todo-app-12413/config","href":"https://identitytoolkit.googleapis.com/admin/v2/projects/todo-app-12413/config"},"method":"GET"}}},"exit":1,"message":"HTTP Error: 404, CONFIGURATION_NOT_FOUND","status":404}
+[info] 
+[info] === Deploying to 'todo-app-12413'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-11-19T17:13:07.448Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/todo-app-12413/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-11-19T17:13:09.461Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 19 Nov 2020 17:13:09 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[todo-app-12413]: beginning deploy... 
+[info] i  hosting[todo-app-12413]: found 18 files in build 
+[debug] [2020-11-19T17:13:09.551Z] [hosting] hash cache [YnVpbGQ] stored for 18 files
+[debug] [2020-11-19T17:13:09.552Z] [hosting][hash queue][FINAL] {"max":12,"min":2,"avg":2,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":21}
+[debug] [2020-11-19T17:13:09.553Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/todo-app-12413/versions/2684c907fa6f1cb1:populateFiles  
+ <request body omitted>
+[debug] [2020-11-19T17:13:11.565Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 19 Nov 2020 17:13:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:11.566Z] [hosting][populate queue][FINAL] {"max":2020,"min":2020,"avg":2020,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2021}
+[debug] [2020-11-19T17:13:11.566Z] [hosting] uploads queued: 0
+[debug] [2020-11-19T17:13:11.566Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1605805991566}
+[info] +  hosting[todo-app-12413]: file upload complete 
+[debug] [2020-11-19T17:13:11.568Z] [hosting] deploy completed after 2105ms
+[debug] [2020-11-19T17:13:12.184Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "todo-app-12413"
+    },
+    "site": "todo-app-12413",
+    "version": "sites/todo-app-12413/versions/2684c907fa6f1cb1"
+  }
+]
+[info] i  hosting[todo-app-12413]: finalizing version... 
+[debug] [2020-11-19T17:13:12.186Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/todo-app-12413/versions/2684c907fa6f1cb1?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-11-19T17:13:14.055Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 19 Nov 2020 17:13:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:14.056Z] [hosting] finalized version for todo-app-12413: {"name":"sites/todo-app-12413/versions/2684c907fa6f1cb1","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-11-19T17:13:09.463208Z","createUser":{"email":"ebirenidavid@gmail.com"},"finalizeTime":"2020-11-19T17:13:14.463450Z","finalizeUser":{"email":"ebirenidavid@gmail.com"}}
+[info] +  hosting[todo-app-12413]: version finalized 
+[info] i  hosting[todo-app-12413]: releasing new version... 
+[debug] [2020-11-19T17:13:14.869Z] [hosting] releasing to channel: todo-app-12413
+[debug] [2020-11-19T17:13:14.870Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/todo-app-12413/channels/todo-app-12413/releases?version_name=sites/todo-app-12413/versions/2684c907fa6f1cb1  
+ {"message":null}
+[debug] [2020-11-19T17:13:16.690Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 19 Nov 2020 17:13:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-11-19T17:13:16.692Z] [hosting] release: {"name":"sites/todo-app-12413/channels/todo-app-12413/releases/1605805996462096","version":{"name":"sites/todo-app-12413/versions/2684c907fa6f1cb1","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-11-19T17:13:09.463208Z","createUser":{"email":"ebirenidavid@gmail.com"},"finalizeTime":"2020-11-19T17:13:14.463450Z","finalizeUser":{"email":"ebirenidavid@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2020-11-19T17:13:16.462096557Z","releaseUser":{"email":"ebirenidavid@gmail.com"}}
+[info] +  hosting[todo-app-12413]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/todo-app-12413/overview
+[info] Hosting URL: https://todo-app-12413.web.app
+[info] 
+[info] +  hosting:channel: Channel URL (todo-app-12413): https://todo-app-12413--todo-app-12413-roq1ppsu.web.app [expires 2020-11-26 18:13:01] 

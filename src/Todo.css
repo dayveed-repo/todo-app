@@ -1,0 +1,19 @@
+.Todo{
+    display: flex;
+    background-color: rgb(133, 184, 13);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    padding: 5px 10px;
+    height: 5vh;
+}
+.Todo h2{
+    font-size: 15px;
+    color: white;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
